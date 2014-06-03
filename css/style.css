@@ -1,0 +1,218 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,200,700);
+
+body {
+      font-family: 'Raleway', sans-serif;
+      font-weight: 700;
+      letter-spacing: 1.1px;
+      line-height: 1;
+}
+
+      body p {
+            line-height: 150%;
+      }
+
+h3 {
+      font-family: 'Raleway', sans-serif;
+      font-weight: 700;
+}
+
+nav {
+      opacity: 0.8;
+}
+
+      nav img {
+            padding-top: 10px;
+      }
+
+#intro {
+      background: url("../img/cityscape2.jpg")fixed center center no-repeat;
+      padding: 7rem 0 10rem 0;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      border-bottom: solid #4e88b7 0.5rem;
+}
+     
+      #background h2 {
+            font-family: 'Raleway', sans-serif;
+            font-size: 2.6em;
+            font-weight: 400;
+            color: #FFF;
+            background-color: rgba(206,132,82,0.7);
+            padding: 3rem;
+            border-radius: 5px;
+            margin-bottom: 3rem;
+            border-top: solid #ce8452 0.5rem;
+      }
+      
+      #background p {
+            font-size: 2em;
+            font-weight: 200;
+            color: #FFF;
+            background-color: rgba(78,136,183,0.8);
+            padding: 3rem;
+            border-radius: 5px;
+            border-top: solid #4e88b7 0.5rem;
+      }
+      
+      #background span {
+            font-weight: 700;
+      }
+
+      #logo img {
+                  margin: 4.5rem 0 1.5rem 0;
+                  max-width: 18%;
+            }
+
+#process {
+      padding: 2rem 0 2.5rem 0;
+      border-bottom: solid #4e88b7 0.5rem;
+}
+
+      #process p {
+            padding: 1.5rem;
+      }
+      
+      #process h3 {
+            padding: 1rem;
+            margin: 0 0 2rem 0;
+            background: #EEE;
+            border-radius: 5px;
+      }
+
+.content {
+      font-weight: 400;
+      border-top: solid #ce8452 0.5rem;
+      border-bottom: solid #4e88b7 0.5rem;
+}
+
+      .content p {
+            font-weight: 700;
+            padding: 0.5rem;
+      }
+    
+    
+#convenience {
+        background-color:rgba(78,136,183,0.1);
+        padding: 10rem 0 10rem 0;
+}
+ 
+      #convenience img {
+            margin-top: 5em;
+            padding-right: 2em;
+      }
+
+#community {
+      background: url("../img/lightgrey.jpg");
+      padding: 8rem 0 8rem 0;
+}
+
+      #community img {
+            margin-top: 7em;
+            padding-left: 2em;
+      }
+
+#collaboration {
+      background-color: rgba(78,136,183,0.1);
+      padding: 16rem 0 16rem 0;
+}
+
+.bubble {
+      border-radius: 5px;
+      background: #AAA;
+      border: 1px solid red;
+}
+
+#footer {
+      background: url("../img/cityscape2.jpg")fixed center center no-repeat;
+      padding: 14rem 0 14rem 0;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      color: #FFF;
+      border-bottom: none;
+}
+
+      #footer p{
+            font-weight: 400;
+            color: black;
+            background-color:rgba(245,245,245,0.9);
+            padding: 2rem;
+            border-radius: 5px;
+      }
+      
+      #footer a {
+            font-weight: 200;
+      }
+      
+      #footer a:hover {
+            text-decoration: underline;
+      }
+      
+
+@media only screen
+and (max-width : 640px) {
+
+      img {
+            max-width: 80%;
+      }
+      #intro {
+            padding: 2rem 0 2rem 0;
+      }
+      
+      #background p {
+            font-size: 1rem;
+      }
+      
+      #logo img {
+            min-width: 55%;
+      }
+      
+      .content {
+            padding: 1rem;
+      }
+      
+      #convenience {
+            padding: 2rem 0 2rem 0;
+      }
+      
+            #convenience img {
+                  display: none;
+            }
+      
+      #community {
+            padding: 2rem 0 2rem 0;
+      }
+      
+            #community img {
+                  display: none;
+            }
+      
+      #collaboration{
+            padding: 2rem 0 2rem 0;
+      }
+      
+            #collaboration img {
+                  display: none;
+            }
+      
+      #footer {
+            padding: 1rem;      
+      }
+      
+            #footer p{
+                  padding: 1rem;
+                  font-size: 0.8rem;
+            }
+}
+
+@media only screen and (min-width : 641px) and (max-width : 1004px){
+      
+      nav img {
+            display: none;
+      }
+
+
+
