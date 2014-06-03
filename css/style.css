@@ -125,7 +125,7 @@ nav {
 }
 
 #footer {
-      background: url("../img/cityscape2.jpg")fixed center center no-repeat;
+      background: url("../img/cityscape2.png")fixed center center no-repeat;
       padding: 14rem 0 14rem 0;
       -webkit-background-size: cover;
       -moz-background-size: cover;
@@ -161,6 +161,10 @@ and (max-width : 640px) {
       #intro {
             padding: 2rem 0 2rem 0;
       }
+      
+            #intro img {
+                  display: none;
+            }
       
       #background p {
             font-size: 1rem;
@@ -206,13 +210,17 @@ and (max-width : 640px) {
                   padding: 1rem;
                   font-size: 0.8rem;
             }
+            
+            #footer img {
+            display: none;
+      } 
 }
 
 @media only screen and (min-width : 641px) and (max-width : 1004px){
       
       nav img {
             display: none;
-      }
-
+      }      
+}
 
 
