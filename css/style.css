@@ -94,7 +94,7 @@ nav {
     
     
 #convenience {
-        background-color:rgba(78,136,183,0.1);
+        background-color:rgba(78,136,183,0.4);
         padding: 10rem 0 10rem 0;
 }
  
@@ -114,7 +114,7 @@ nav {
       }
 
 #collaboration {
-      background-color: rgba(78,136,183,0.1);
+      background-color: rgba(78,136,183,0.4);
       padding: 16rem 0 16rem 0;
 }
 
@@ -126,7 +126,7 @@ nav {
 
 #footer {
       background: url("../img/cityscape2.png")fixed center center no-repeat;
-      padding: 14rem 0 14rem 0;
+      padding: 2rem 0 3rem 0;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
@@ -136,19 +136,31 @@ nav {
 }
 
       #footer p{
-            font-weight: 400;
+            font-weight: 700;
             color: black;
             background-color:rgba(245,245,245,0.9);
-            padding: 2rem;
+            padding: 1rem;
             border-radius: 5px;
       }
       
       #footer a {
-            font-weight: 200;
+            font-weight: 400;
       }
       
       #footer a:hover {
             text-decoration: underline;
+      }
+      
+      #footer img {
+            background-color: rgba(78,136,183,0.4);
+            border-radius: 5px;
+            padding: 1rem;
+            margin-left: 1rem;
+      }
+      
+      #footer #jordan {
+            font-size: 12px;
+            font-weight: 200;
       }
       
 
@@ -203,17 +215,13 @@ and (max-width : 640px) {
             }
       
       #footer {
-            padding: 1rem;      
+            padding: 1rem;
       }
       
             #footer p{
                   padding: 1rem;
                   font-size: 0.8rem;
             }
-            
-            #footer img {
-            display: none;
-      } 
 }
 
 @media only screen and (min-width : 641px) and (max-width : 1004px){
