@@ -26,7 +26,7 @@ nav {
 
 #intro {
       background: url("../img/cityscape2.png")fixed center center no-repeat;
-      padding: 7rem 0 10rem 0;
+      padding: 4rem 0 10rem 0;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
@@ -40,7 +40,7 @@ nav {
             font-weight: 400;
             color: #FFF;
             background-color: rgba(206,132,82,0.7);
-            padding: 3rem;
+            padding: 2rem;
             border-radius: 5px;
             margin-bottom: 3rem;
             border-top: solid #ce8452 0.5rem;
@@ -166,6 +166,10 @@ nav {
 
 @media only screen
 and (max-width : 640px) {
+
+      background span {
+            font-weight: 200;
+      }
 
       img {
             max-width: 80%;
