@@ -16,13 +16,13 @@ function get_rate() {
     	return $obj;
 }
 
-$var = get_rate();
-error_log("var ".var_export($var, true));
+//$var = get_rate();
+//error_log("var ".var_export($var, true));
 
 function get_price($p) {
 	$var = get_rate();
 	$var = $var['data']['rate'];
-	error_log("wtf ".var_export($var, true));
+//	error_log("wtf ".var_export($var, true));
 	$var = round($var, 2);
 	$buy = $var * 1.06;
 	$sell = $var * 0.97;

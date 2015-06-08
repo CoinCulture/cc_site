@@ -168,7 +168,7 @@
   <!-----convenience------------------------------------------------------------------------------------------------------------>
   
   <div class="row content clearfix" id="convenience">
-  <?php include "getrates.php";
+ <?php include "getrates.php";
  $buy = get_price('B'); $sell = get_price('S');?>
     <div id="content" class="small-centered medium-12 large-centered large-8 columns">
       <div class="small-0 medium-3 large-4 columns">
@@ -186,7 +186,7 @@
       <h6>For help or assistance with your first purchase, contact us at support@coinculture.info</h6><br>
 	<h3>Live Rates: Price Per BTC</h3>
 	<h4>Buy Bitcoin at: <?php echo '$ '.$buy.' CAD' ?> </h4>
-	<h4>Sell Bitcoin at: <?php echo '$ '.$sell.' CAD' ?> </h4>
+	<h4>Sell Bitcoin at: <?php echo '$ '.$sell.' CAD' ?> </h4> 
       </div>
     </div>
   </div>
