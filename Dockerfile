@@ -1,7 +1,7 @@
 FROM ubuntu:latest
 MAINTAINER Coin Culture <support@coinculture.info>
 
-RUN DEBIAN_FRONTEND=noninteractive apt-get update && apt-get dist-upgrade -y && apt-get install -y nginx php5-common php5-cli php5-fpm php5-curl && apt-get clean all
+RUN DEBIAN_FRONTEND=noninteractive apt-get update && apt-get dist-upgrade -y && apt-get install -y git nginx php5-common php5-cli php5-fpm php5-curl && apt-get clean all
 
 ENV repo /coinculture
 RUN mkdir -p $repo
