@@ -1,8 +1,7 @@
 <?php 
 
 // receive webhook from github and pull
-if ( $_POST['payload'] ) {
-  shell_exec( 'cd /coinculture/ && git reset --hard HEAD && git pull origin master' );
-}
+// TODO: authenticate the payload
+shell_exec( 'cd /coinculture/ && git fetch -a origin && git reset --hard origin/master' );
 
 ?>

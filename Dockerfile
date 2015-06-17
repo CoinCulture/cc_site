@@ -6,6 +6,8 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get update && apt-get dist-upgrade -y && 
 ENV repo /coinculture
 RUN mkdir -p $repo
 COPY . $repo/
+RUN chown -R www-data:www-data $repo
+WORKDIR $repo
 
 RUN rm /etc/nginx/sites-enabled/*
 RUN rm /etc/nginx/sites-available/*

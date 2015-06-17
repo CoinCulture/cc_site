@@ -1,5 +1,8 @@
 #! /bin/bash
 
+git config --global user.email "me@me.com"
+git config --global user.name "Me"
+
 /etc/init.d/php5-fpm start
 
 # if no ssl, turn ssl off
