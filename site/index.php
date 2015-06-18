@@ -179,10 +179,12 @@
 	<p>Bitcoin ATM's are the simplest and safest way to buy bitcoin. All you need is a cellphone.
     </p>
 	  <ul>
-	    <h6>Locations:</h6>
-	    <li><a href="http://global-currency.on.ca/" target="_blank">Global Currency Services</a>, 1027 Gordon St, Guelph, ON</li>
+	    <h5>Locations:</h5>
+	    <li><a href="http://global-currency.on.ca/" target="_blank">Global Currency Services</a>, 1027 Gordon St., Guelph, ON</li>
+	    <li><a href="http://yorkfx.com/" target="_blank">York Foreign Exchange</a>, 69 Yorkville Ave., Toronto, ON</li>
 	    <li>More on the way!</li>
 	  </ul>
+
       <h6>For help or assistance with your first purchase, contact us at support@coinculture.info</h6><br>
 	<h3>Live Rates: Price Per BTC</h3>
 	<h4>Buy Bitcoin at: <?php echo '$ '.$buy.' CAD' ?> </h4>
